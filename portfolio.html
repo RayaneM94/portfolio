@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Rayane Marques</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --primary-color: #1a1a2e;
+      --secondary-color: #e94560;
+      --accent-color: #00b4d8;
+      --font-family: 'Rajdhani', sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--primary-color);
+      color: #fff;
+      font-family: var(--font-family);
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: var(--secondary-color);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.1rem;
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .project {
+      margin-bottom: 2rem;
+      border-left: 4px solid var(--accent-color);
+      padding-left: 1rem;
+    }
+    .project h2 { margin-top: 0; font-size: 1.8rem; }
+    .project p { margin: 0.5rem 0; }
+    .project img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 0.5rem;
+    }
+    .project a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+    .project a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: var(--primary-color);
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rayane Marques</h1>
+    <p>Desenvolvedora Fullstack & Criadora de Soluções</p>
+  </header>
+  <main>
+    <img src="images/rayane.jpg" alt="Rayane Marques" style="width: 200px; border-radius: 100%; margin: 1rem auto; display: block;" />
+      <section class="project">
+      <h2>Compet.Esport</h2>
+      <p>Plataforma de apostas com painel de desenvolvedores, sistema de economia interna COMP$, integração PIX e design responsivo.</p>
+      <img src="images/competesport.png" alt="Compet.Esport" />
+      <p><a href="https://github.com/seuusuario/competesport" target="_blank">Ver no GitHub</a></p>
+    </section>
+
+    <section class="project">
+      <h2>ComparaComigo</h2>
+      <p>Plataforma colaborativa de comparação de preços, com mapa interativo usando Leaflet.js e backend em Node.js.</p>
+      <img src="images/comparacomigo.png" alt="ComparaComigo" />
+      <p><a href="https://github.com/seuusuario/comparacomigo" target="_blank">Ver no GitHub</a></p>
+    </section>
+
+    <section class="project">
+      <h2>Painel de Gestão</h2>
+      <p>Sistema de dashboard administrativo com autenticação JWT, CRUD em MySQL e deploy em servidor Linux com Nginx e PM2.</p>
+      <img src="images/painel.png" alt="Painel de Gestão" />
+      <p><a href="https://github.com/seuusuario/painel" target="_blank">Ver no GitHub</a></p>
+    </section>
+  </main>
+
+    <footer>
+    <p>Entre em contato: <a href="mailto:rayanemarquesdasilvaoficial@gmail.com">rayanemarquesdasilvaoficial@gmail.com</a> |
+    <a href="https://github.com/seuusuario" target="_blank">GitHub</a> |
+    <a href="https://wa.me/5521987212799" target="_blank">WhatsApp 📱</a>
+    </p>
+  </footer>
+</body>
+</html>
